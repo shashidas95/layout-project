@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+h1{
+    font-size: 48px;
+    color: #292640;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 10px 50px 0;
+}
+p{
+    color: #333;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 15px 0 45px;
+}
+
+img{
+   
+    display: block;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin:auto;
+}
+
+li{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto 30px;
+}
+.heading h2{
+    font-size: 32px;
+    color: #292640;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.heading p{
+    font-size: 14px;
+    font-style: italic;
+}
+.col-1-3{
+    max-width: 25%;
+    flex-basis: 25%;
+    padding: 15px;
+}
+
+
+h3{
+    font-size: 16px;
+    color: #292640;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+h4{color: #1A73E9;font-size: 20px;letter-spacing: 2 !important;}
+/**************************************/
+.features-section{
+    padding: 100px 0;
+}
+
+.col-1-3{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.feature{
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.feature span{
+    display:inline-block;
+    background-color: #bef1eb;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #ff6162;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.feature h4{
+   
+    font-size: 20px;
+    color: #292640;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+.feature p{
+}
+
+
+/****************************************************/
+.community-section{background-color: #09152F;}
+.community{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 50px 0;}
+.community span{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+.community h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.community p{
+    color: #505C68;
+    font-size: 14px;
+    font-weight: 600;
+}
+/************************************/
+
+
+/************************************/
+.trusted-section{
+    margin: 50px 0;
+}
+.content{text-transform: capitalize;}
+.content h1{font-weight: 100;margin: 30px 0;font-size: 60px;}
+.content h4{}
+.col-1-2{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.col-1-2 span{
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    background: #F6FAFD;
+    text-align: center;
+    margin: 25px;
+    font-size: 100px;
+    box-sizing: border-box;
+    color: #36393c;
+    border-radius: 10px;
+}
+.work-history-btn{
+    display: inline-block;
+    background-color: #1A73E9;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+/************************************/
+footer{
+    background-color: #F6FAFD;
+    text-align: center;
+    padding: 50px 0;
+}
+.col-1-4{}
+.col-1-4 {
+    max-width: 25%;
+    flex-basis: 25%;
+    text-align: left;
+    color: #5C6EB0;
+}
+.col-1-4 ul{}
+.col-1-4 ul li{
+    color: #5F778F;
+    padding: 10px 0;
+}
+.col-1-4 ul li a{
+    text-decoration: none;
+    color: #5f778f47;
+}
+
+footer h4{
+    max-width: 500px;
+    margin: 0 auto 30px;
+    color: #5F778F;
+}
